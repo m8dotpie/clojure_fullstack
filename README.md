@@ -7,14 +7,14 @@ Clojure fullstack with an hour (month)
 - [ ] Simple GUI
 - [ ] Kubernetes
 - [ ] CI/CD
-- [ ] PostgreSQL
+- [x] PostgreSQL
 - [x] Emacs/Vim setup
 
 ## Information Model
 
 ### Patient
 
-- id              (UUID)
+- id              (Integer)
 - first-name      (String)
 - last-name       (String)
 - patronymic-name (String)
@@ -28,9 +28,9 @@ Clojure fullstack with an hour (month)
 ### Data flow
 
 /api/patients
-- GET    => get a list of patients
-- POST   => create a new patient
+- [x] GET    => get a list of patients
+- [x] POST   => create a new patient
 /api/patients/:patient-id
-- GET    => get single patient data
-- PUT    => update patient data
-- DELETE => remove existing patient
+- [x] GET    => get single patient data
+- [x] PUT    => update patient data
+- [x] DELETE => remove existing patient
